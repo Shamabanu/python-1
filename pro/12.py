@@ -1,11 +1,22 @@
+def sum(l,s,e):
+	su=0
+	for i in range(s,e+1):
+		su+=l[i]
+	print(su)
+
 def main():
-	f=1
-	n=int(input())
+	n=int(input('N:'))
+	l=[]
 	for i in range(1,n):
-		f=f*i
-	print(f)
+		l.append(int(input('Enter array :')))
+	q=int(input('Q:'))
+	for i in range(q):
+		u=int(input())
+		v=int(input())
+		sum(l,u,v)
 try:
 	main()
 except:
 	print('invalid')
-  p
+	p
+	p
